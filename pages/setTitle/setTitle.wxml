@@ -1,0 +1,4 @@
+<view class="container">
+  <text>ddd</text>
+  <button bindtap="setName">name</button>
+</view>

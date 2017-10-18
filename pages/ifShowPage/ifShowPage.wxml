@@ -1,0 +1,8 @@
+<view class="page">
+  <view >
+     <button bindtap="onChangeShowState">{{showView?'隐藏':'显示'}}</button>
+  </view>
+  <view class="bright789_view_{{showView?'show':'hide'}}">
+    <text class="bright789-text">我是被显示被隐藏控件</text>
+  </view>
+</view>
