@@ -1,0 +1,13 @@
+<!--监听button点击事件-->
+<button bindtap="listenerButton" type="primary">弹出modal</button>
+
+<!--弹出框-->
+<modal 
+    title="退出应用"
+     hidden="{{hiddenModal}}"
+     confirm-text="再看看"
+     cancel-text="退出"
+     bindconfirm="listenerConfirm"
+     bindcancel="listenerCancel" >
+     您是否真的要退出应用
+     </modal>

@@ -1,0 +1,7 @@
+<!--switch类型开关-->
+<view>switch类型开关</view>
+<switch type="switch" checked="true" bindchange="listenerSwitch"/>
+
+<!--checkbox类型开关-->
+<view>checkbox类型开关</view>
+<switch type="checkbox" bindchange="listenerCheckboxSwitch" />

@@ -9,7 +9,19 @@
     "pages/test-scroll-view/test-scroll-view",
     "pages/test-image/test-image",
     "pages/swiper/swiper",
-    "pages/icon/icon"
+    "pages/icon/icon",
+    "pages/text/text",
+    "pages/progress/progress",
+    "pages/button/button",
+    "pages/check-box/check-box",
+    "pages/form/form",
+    "pages/input/input",
+    "pages/picker/picker",
+    "pages/radio/radio",
+    "pages/switch/switch",
+    "pages/action-sheet/action-sheet",
+    "pages/modal/modal",
+    "pages/toast/toast"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -48,7 +60,7 @@
         "text": "例子"
       },
       {
-        "pagePath": "pages/icon/icon",
+        "pagePath": "pages/toast/toast",
         "iconPath": "images/champion-81.png",
         "selectedIconPath": "images/champion-81.png",
         "text": "条件显示"

@@ -1,0 +1,4 @@
+<!--点击button触发toast-->
+<button type="primary" bindtap="listenerButton">点击显示toast</button>
+<!--toast消息框显示3秒，并绑定事件-->
+<toast hidden="{{hiddenToast}}" duration="3000" bindchange="toastHidden" >OK!</toast>

@@ -1,0 +1,7 @@
+<!--按钮默认样式，点击事件-->
+<button type="defaule" bindtap="clickButton">Defalut</button>
+
+<!--原始颜色，不可点击状态， 正在加载状态-->
+<button type="primary" disabled="true" loading="true">Primary</button>
+
+<button type="warn">warn</button>

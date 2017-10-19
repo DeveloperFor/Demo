@@ -1,0 +1,4 @@
+<view >
+    <text>我是文本组件</text>
+</view>
+<text>{{text}}</text>

@@ -1,0 +1,8 @@
+<!--checkbox-group就是一个checkbox组 有个监听事件bindchange，监听数据选中和取消-->
+<checkbox-group bindchange="listenCheckboxChange">
+<!--这里用label显示内容，for循环写法 wx:for-items 默认item为每一项-->
+    <label style="display: flex;"  wx:for-items="{{items}}">
+    <!--value值和默认选中状态都是通过数据绑定在js中的-->
+        <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    </label>
+</checkbox-group>

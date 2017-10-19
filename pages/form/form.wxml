@@ -1,0 +1,11 @@
+<form bindsubmit="listenFormSubmit" bindreset="listenFormReser" >
+    <checkbox-group name="checkbox" bindchange="listenerCheckbox">
+        <label style="display: flex" wx:for-items="{{items}}">
+            <checkbox value="{{item.name}}"/>{{item.value}}
+        </label>
+    </checkbox-group>
+
+<!--button formType属性两个可选值submit, reset分别会触发form的submit，reser事件 -->
+    <button formType="submit" type="primary">提交</button>
+    <button formType="reset" type="warn">重置</button>
+</form>
