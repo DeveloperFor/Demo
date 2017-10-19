@@ -5,7 +5,11 @@
     "pages/setTitle/setTitle",
     "pages/test/test",
     "pages/test-view/test-view",
-    "pages/ifShowPage/ifShowPage"
+    "pages/ifShowPage/ifShowPage",
+    "pages/test-scroll-view/test-scroll-view",
+    "pages/test-image/test-image",
+    "pages/swiper/swiper",
+    "pages/icon/icon"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -44,7 +48,7 @@
         "text": "例子"
       },
       {
-        "pagePath": "pages/ifShowPage/ifShowPage",
+        "pagePath": "pages/icon/icon",
         "iconPath": "images/champion-81.png",
         "selectedIconPath": "images/champion-81.png",
         "text": "条件显示"
